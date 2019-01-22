@@ -1,2 +1,0 @@
-O - write service that takes route path, checks based on method, if it needs authorization and/or db connection and parses the req.body
-O - write 
