@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "alias": "backend.ball-network.com",
+  "routes": [
+    { "src": "/api/user/career/(.*)", "dest": "/api/user/career/index.js?_id=$1" }
+  ],
+  "builds": [
+    { "src": "api/**/*.js", "use": "@now/node" }
+  ]
+}
